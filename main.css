@@ -4,7 +4,7 @@
     font-size: 60px;
 }
 body {
-    background-color: rgba(55, 97, 121, 0.911);
+    background-color: silver;
     color: #ffffff;
     font-family: helvetica;
 }
@@ -16,7 +16,7 @@ ul {
 }
 /*More specific elements take precedence over ul and body*/
 li {
-    list-style: circle;
+    list-style: none;
     padding: 5px;
 }
 img {
