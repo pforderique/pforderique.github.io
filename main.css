@@ -1,7 +1,40 @@
-#MainTitle {
+.mainTitle {
     text-align: center;
     color: #ffffff;
-    font-size: 60px;
+    font-size: 100px;
+}
+.subTitle {
+    text-align: center;
+    color: #ffffff;
+    font-size: 25px;
+    padding-top: 115px;
+}
+/* mainScreen holding the image and the text */
+.mainScreen {
+    position: absolute;
+    width: 80%;
+    text-align: center;
+    color: white;
+    padding-bottom: 40px;
+} 
+.mainBody {
+    position: relative;
+    padding-left: 15%;
+    padding-top: 35%;
+}
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.sideBar {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    padding-top: 2%;
+    background-color: black;
 }
 body {
     background-color: silver;
