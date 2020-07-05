@@ -85,13 +85,13 @@
       </div>
     </div>
 
-    <!-- About Section -->
+    <!-- Container (About Section) -->
     <div class="w3-content w3-container w3-padding-64" id="about">
       <h3 class="w3-center">ABOUT ME</h3>
       <p></b><i class="w3-center fa fa-user"></i> Piero Fabrizzio Orderique</b><br>
       <p>Hello! Welcome to my website - a place where I freely share stories about my life and feature some of the projects that I have
         been completing over the years. My name is Piero Orderique, but most friends and family use my middle name Fabrizzio. Currently a 
-        computer science student at the Massachusetts Institute of Technology, I am an advocate for STEM education and equitable opportunities 
+        Gates Scholar studying Computer Science at the Massachusetts Institute of Technology, I am an advocate for STEM education and equitable opportunities 
         for all.
       </p>
       <div class="w3-row">
@@ -156,47 +156,75 @@
     </div>
 
     <!-- Container (Portfolio Section) -->
-    <div class="w3-content w3-container w3-padding-64" id="portfolio">
-      <h3 class="w3-center">MY WORK</h3>
-      <p class="w3-center"><em>Here are some of my latest lorem work ipsum tipsum.<br> Click on the images to make them bigger</em></p><br>
+    <div>
+      <!-- Projects -->
+      <div class="w3-content w3-container w3-padding-64" id="portfolio">
+        <h3 class="w3-center">PROJECTS</h3>
+        <p class="w3-center"><em>Here are some of my featured projects from varying fields<br> Click on the images to make them bigger</em></p><br>
 
-      <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
-      <div class="w3-row-padding w3-center">
-        <div class="w3-col m3">
-          <img src="/w3images/p1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist over the mountains">
+        <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+        <div class="w3-row-padding w3-center">
+          <div class="w3-col m3">
+            <img src="images/project-images/sinemain.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Edcucational Sine Wave Visualizer">
+            <a href="about-page/" style="color:darkblue"> <!--use page.html#timeline FOR SPECIFIC PART OF DIFF PAGE-->
+              <p class="w3-center"><em>Educational Sine Wave Visualizer</em></p>
+            </a>
+          </div>
+
+          <div class="w3-col m3">
+            <img src="/images/project-images/paintcanvascropped.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Paint Canvas App">
+            <a href="https://play.google.com/store/apps/details?id=com.paintcanvasapp.paintcanvas" style="color:darkblue" target="_blank"> <!--use page.html#timeline FOR SPECIFIC PART OF DIFF PAGE-->
+              <p class="w3-center"><em>Android Paint App</em></p>
+            </a>
+          </div>
+          
+          <div class="w3-col m3">
+            <img src="/images/project-images/arduinomaker.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="STEM Educational Account">
+            <a href="https://www.instagram.com/arduino.maker/?hl=en" style="color:darkblue" target="_blank"> <!--use page.html#timeline FOR SPECIFIC PART OF DIFF PAGE-->
+              <p class="w3-center"><em>STEM Educational Account</em></p>
+            </a>
+          </div>
+
+          <div class="w3-col m3">
+            <img src="/images/project-images/sortingvisualizertall.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Sorting Program">
+            <a href="about-page/" style="color:darkblue"> <!--use page.html#timeline FOR SPECIFIC PART OF DIFF PAGE-->
+              <p class="w3-center"><em>Sorting Visualizer Aid</em></p>
+            </a>
+          </div>
         </div>
 
-        <div class="w3-col m3">
-          <img src="/w3images/p2.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Coffee beans">
-        </div>
+        <div class="w3-row-padding w3-center w3-section">
+          <div class="w3-col m3">
+            <img src="/w3images/p5.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist">
+          </div>
 
-        <div class="w3-col m3">
-          <img src="/w3images/p3.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Bear closeup">
-        </div>
+          <div class="w3-col m3">
+            <img src="/w3images/p6.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="My beloved typewriter">
+          </div>
 
-        <div class="w3-col m3">
-          <img src="/w3images/p4.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Quiet ocean">
+          <div class="w3-col m3">
+            <img src="/w3images/p7.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Empty ghost train">
+          </div>
+
+          <div class="w3-col m3">
+            <img src="/w3images/p8.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Sailing">
+          </div>
+
+          <button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">SEE MORE</button> <!--link to projects page-->
         </div>
       </div>
-
-      <div class="w3-row-padding w3-center w3-section">
-        <div class="w3-col m3">
-          <img src="/w3images/p5.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist">
+      <!-- Awards and Distinctions -->
+      <div class="w3-content w3-container" id="portfolio">
+        <h3 class="w3-center">Awards and Distinctions</h3>
+        <p class="w3-center"><em>Here are some of my most recent awards. To see a full list with details, click <a href="/about-page/">here</a></em></p>
+          <ul style="list-style-type:disc"><br>
+            <li>Gates Scholar (less than 1% acceptance rate)</li>
+            <li>The President’s Volunteer Service Award </li>
+            <li>HSF Scholar, Stamps Scholar, Foundation Fellow, National Hispanic Scholar</li>
+            <li>Georgia Certificate of Merit</li>
+            <li>The Prudential Spirit of Community Award</li>
+          </ul>
         </div>
-
-        <div class="w3-col m3">
-          <img src="/w3images/p6.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="My beloved typewriter">
-        </div>
-
-        <div class="w3-col m3">
-          <img src="/w3images/p7.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Empty ghost train">
-        </div>
-
-        <div class="w3-col m3">
-          <img src="/w3images/p8.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Sailing">
-        </div>
-        <button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">LOAD MORE</button>
-      </div>
     </div>
 
     <!-- Modal for full size images on click-->
