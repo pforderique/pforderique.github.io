@@ -38,8 +38,10 @@
         <span class="w3-center w3-padding-large w3-white w3-border-black w3-xxlarge w3-wide w3-animate-opacity">Piero <span class="w3-hide-small">F.</span> Orderique</span>
       </div>
     </div>
+    
+    <!------------------------------------------------------------------------------------------------------------------------------------->
 
-    <!-- Container (About Section) -->
+    <!-- About Section -->
     <div class="w3-content w3-container w3-padding-64" id="about">
       <h3 class="w3-center">ABOUT ME</h3>
       <p></b><i class="w3-center fa fa-user"></i> Piero Fabrizzio Orderique</b><br>
@@ -81,11 +83,13 @@
       <p class="m3-semi-wide"><i class="fa fa-money"></i>Fintech</p>
 
     </div>
+    
+    <!------------------------------------------------------------------------------------------------------------------------------------->
 
-    <!-- Feature Section -->
+    <!-- Highlights Section -->
     <div class="w3-row w3-center w3-light-grey w3-padding-16">
       <div class="w3-quarter w3-section">
-        <span class="w3-xlarge">4</span><br>
+        <span class="w3-xlarge">6</span><br>
         Final Projects
       </div>
       <div class="w3-quarter w3-section">
@@ -97,10 +101,12 @@
         Hours of Community Service
       </div>
       <div class="w3-quarter w3-section">
-        <span class="w3-xlarge">2500+</span><br>
+        <span class="w3-xlarge">3500+</span><br>
         Educational Followers
       </div>
     </div>
+
+    <!------------------------------------------------------------------------------------------------------------------------------------->
 
     <!-- Second Parallax Image with Portfolio Text -->
     <div class="bgimg-2 w3-display-container w3-opacity-min">
@@ -109,64 +115,89 @@
       </div>
     </div>
 
-    <!-- Container (Portfolio Section) -->
+    <!-- Portfolio Section -->
     <div>
       <!-- Projects -->
       <div class="w3-content w3-container w3-padding-64" id="portfolio">
         <h3 class="w3-center">PROJECTS</h3>
-        <p class="w3-center"><em>Here are some of my featured projects from varying fields<br> Click on the images to make them bigger</em></p><br>
+        <p class="w3-center"><em>Here are some of my featured projects from varying fields<br> Click images to enlarge</em></p><br>
 
         <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
-        <div class="w3-row-padding w3-center">
-          <div class="w3-col m3">
-            <img src="/data/images/project-images/sinemain.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Edcucational Sine Wave Visualizer">
-            <a href="about-page/" style="color:darkblue"> <!--use page.html#timeline FOR SPECIFIC PART OF DIFF PAGE-->
-              <p class="w3-center"><em>Educational Sine Wave Visualizer</em></p>
-            </a>
-          </div>
+        
+        <!-- First Row -->
+        <div class="firstrow">
+          <div class="w3-row-padding w3-center">
 
-          <div class="w3-col m3">
-            <img src="/data/images/project-images/paintcanvascropped.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Paint Canvas App">
-            <a href="https://play.google.com/store/apps/details?id=com.paintcanvasapp.paintcanvas" style="color:darkblue" target="_blank"> <!--use page.html#timeline FOR SPECIFIC PART OF DIFF PAGE-->
-              <p class="w3-center"><em>Android Paint App</em></p>
-            </a>
-          </div>
-
-          <div class="w3-col m3">
-            <img src="/data/images/project-images/arduinomaker.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="STEM Educational Account">
-            <a href="https://www.instagram.com/arduino.maker/?hl=en" style="color:darkblue" target="_blank"> <!--use page.html#timeline FOR SPECIFIC PART OF DIFF PAGE-->
-              <p class="w3-center"><em>STEM Educational Account</em></p>
-            </a>
-          </div>
-
-          <div class="w3-col m3">
-            <img src="/data/images/project-images/sortingvisualizertall.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Sorting Program">
-            <a href="about-page/" style="color:darkblue"> <!--use page.html#timeline FOR SPECIFIC PART OF DIFF PAGE-->
-              <p class="w3-center"><em>Sorting Visualizer Aid</em></p>
-            </a>
+            <!-- COVID ML Cases Predictor -->
+            <div class="w3-col m3">
+              <img src="/data/images/project-images/covid-cases-predictor.png" style="width:100%" onclick="enlargeElement(this)" class="w3-hover-opacity" alt="ML COVID-19 Cases Predictor">
+              <a href="https://www.youtube.com/watch?v=TYTZBsSjmuo" style="color:darkblue" target="_blank"> <!--use page.html#timeline FOR SPECIFIC PART OF DIFF PAGE-->
+                <p class="w3-center"><em>ML COVID-19 Cases Predictor</em></p>
+              </a>
+            </div>
+            <!-- Android Paint App -->
+            <div class="w3-col m3">
+              <img src="/data/images/project-images/paintcanvascropped.jpg" style="width:100%" onclick="enlargeElement(this)" class="w3-hover-opacity" alt="Paint Canvas App">
+              <a href="https://play.google.com/store/apps/details?id=com.paintcanvasapp.paintcanvas" style="color:darkblue" target="_blank"> <!--use page.html#timeline FOR SPECIFIC PART OF DIFF PAGE-->
+                <p class="w3-center"><em>Android Paint App</em></p>
+              </a>
+            </div>
+            <!-- MITOS -->
+            <div class="w3-col m3">
+              <img src="/data/images/project-images/MITOS_work.jpg" style="width:100%" onclick="enlargeElement(this)" class="w3-hover-opacity" alt="MIT Flood Resilience Model">
+              <a href="about-page/" style="color:darkblue"> <!--use page.html#timeline FOR SPECIFIC PART OF DIFF PAGE-->
+                <p class="w3-center"><em>MIT Flood Resilience Model</em></p>
+              </a>
+            </div>
+            <!-- Arduino.maker -->
+            <div class="w3-col m3">
+              <img src="/data/images/project-images/arduinomaker.jpg" style="width:100%" onclick="enlargeElement(this)" class="w3-hover-opacity" alt="STEM Educational Account">
+              <a href="https://www.instagram.com/arduino.maker/?hl=en" style="color:darkblue" target="_blank"> <!--use page.html#timeline FOR SPECIFIC PART OF DIFF PAGE-->
+                <p class="w3-center"><em>STEM Educational Account</em></p>
+              </a>
+            </div>
           </div>
         </div>
 
-        <div class="w3-row-padding w3-center w3-section">
-          <div class="w3-col m3">
-            <img src="/w3images/p5.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist">
-          </div>
+        <!-- Second Row -->
+        <div class="secondrow">
+          <div class="w3-row-padding w3-center w3-section">
 
-          <div class="w3-col m3">
-            <img src="/w3images/p6.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="My beloved typewriter">
-          </div>
-
-          <div class="w3-col m3">
-            <img src="/w3images/p7.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Empty ghost train">
-          </div>
-
-          <div class="w3-col m3">
-            <img src="/w3images/p8.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Sailing">
-          </div>
-
+            <!-- Sorting Visualizer -->
+            <div class="w3-col m3">
+              <img src="/data/images/project-images/sorting_visualizer.jpg" style="width:100%" onclick="enlargeElement(this)" class="w3-hover-opacity" alt="Sorting Program">
+              <a href="about-page/" style="color:darkblue"> <!--use page.html#timeline FOR SPECIFIC PART OF DIFF PAGE-->
+                <p class="w3-center"><em>Sorting Visualizer Aid</em></p>
+              </a>
+            </div>
+            <!-- Sine Wave Visualizer -->
+            <div class="w3-col m3">
+              <img src="/data/images/project-images/sinemain.png" style="width:100%" onclick="enlargeElement(this)" class="w3-hover-opacity" alt="Edcucational Sine Wave Visualizer">
+              <a href="about-page/" style="color:rgb(0, 0, 78)"> <!--use page.html#timeline FOR SPECIFIC PART OF DIFF PAGE-->
+                <p class="w3-center"><em>Sine Wave Visualizer</em></p>
+              </a>
+            </div>
+            <!-- Tic Tac Toe -->
+            <div class="w3-col m3">
+              <img src="/data/images/project-images/tictactoe.jpg" style="width:100%" onclick="enlargeElement(this)" class="w3-hover-opacity" alt="Tic Tac Toe">
+              <a href="about-page/" style="color:rgb(0, 0, 78)"> <!--use page.html#timeline FOR SPECIFIC PART OF DIFF PAGE-->
+                <p class="w3-center"><em>Tic Tac Toe</em></p>
+              </a>
+            </div>
+            <!-- Clock -->
+            <div class="w3-col m3">
+              <img src="/data/images/project-images/clock.jpg" style="width:100%" onclick="enlargeElement(this)" class="w3-hover-opacity" alt="Clock">
+              <a href="about-page/" style="color:rgb(0, 0, 78)"> <!--use page.html#timeline FOR SPECIFIC PART OF DIFF PAGE-->
+                <p class="w3-center"><em>Apple Watch Clock</em></p>
+              </a>
+            </div>
+            
           <button class="w3-button w3-padding-large w3-light-grey" onClick = "/about-page/" style="margin-top:64px">SEE MORE</button> <!--link to projects page-->
+          </div>
         </div>
+
       </div>
+
       <!-- Awards and Distinctions -->
       <div class="w3-content w3-container" id="portfolio">
         <h3 class="w3-center">Awards and Distinctions</h3>
@@ -248,7 +279,7 @@
 
     <script>
     // Modal Image Gallery
-    function onClick(element) {
+    function enlargeElement(element) {
       document.getElementById("img01").src = element.src;
       document.getElementById("modal01").style.display = "block";
       var captionText = document.getElementById("caption");
