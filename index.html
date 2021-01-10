@@ -200,7 +200,7 @@
 
     <!------------------------------------------------------------------------------------------------------------------------------------->
 
-      <!-- Awards and Distinctions -->
+    <!-- Awards and Distinctions -->
       <div class="w3-content w3-container" id="portfolio">
         <h3 class="w3-center">Awards and Distinctions</h3>
         <p class="w3-center"><em>Here are some of my most recent awards. To see a full list with details, click <a href="/projects-page/about.html">here</a></em></p>
@@ -249,9 +249,9 @@
             <!-- <i class="fa fa-phone fa-fw w3-hover-text-orange w3-xlarge w3-margin-right"></i> Phone: +00 151515<br> -->
             <i class="fa fa-envelope fa-fw w3-hover-text-orange w3-xlarge w3-margin-right"></i><a href="mailto:porderiq@mit.edu" style='color: rgb(0, 46, 83);' class="w3-hover-text-orange"> porderiq@mit.edu</a><br>
           </div>
-
-          <!-- <p><i class="fa fa-paper-plane"></i> Let me know how I can improve this website or if you have any questions:</p>
-          <form action="/action_page.php" target="_blank">
+        <!-- Send Message -->
+        <p><i class="fa fa-paper-plane"></i> Let me know how I can improve this website or if you have any questions:</p>
+          <form action="showMessageError()">
             <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
               <div class="w3-half">
                 <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
@@ -261,10 +261,12 @@
               </div>
             </div>
             <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
-            <button class="m3-button theme-blue-text w3-right w3-section" type="submit">
+            <p id="contactmessage">hey</p>
+            <!-- SEND Button -->
+            <button class="m3-button theme-blue-text w3-right w3-section" type="submit" onclick="showMessageError()">
               <i class="fa fa-paper-plane"></i> SEND MESSAGE
             </button>
-          </form> -->
+          </form>
         </div>
       </div>
     </div>
@@ -280,12 +282,8 @@
       <p>All rights reserved.</p>
     </footer>
 
-    <script>
-
-    </script>
-
+    <!-- JS -->
     <script src="app.js"></script>
-
   </body>
   
 </html>

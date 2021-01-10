@@ -26,3 +26,7 @@ function toggleFunction() {
         x.className = x.className.replace(" w3-show", "");
     }
 }
+
+function showMessageSentError() {
+    document.getElementById("contactmessage").innerHTML = "Whoops! This feature has not been implemented yet!"
+}
