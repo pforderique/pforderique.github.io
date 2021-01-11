@@ -28,5 +28,5 @@ function toggleFunction() {
 }
 
 function showMessageSentError() {
-    document.getElementById("contactmessage").innerHTML = "Whoops! This feature has not been implemented yet!"
+    document.getElementById("contactmessage").innerHTML = "This feature has no been implemented yet"
 }
